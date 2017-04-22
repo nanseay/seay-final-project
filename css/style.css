@@ -1,0 +1,87 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #003366;
+     background-color: #D3D3D3;
+     margin: auto;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+}
+
+.logo img {
+  float: left;
+  width: 150px;
+  box-sizing: border-box;
+}
+
+.logo h1 {
+  float: left;
+  margin: 40px;
+  box-sizing: border-box;
+}
+
+.contact h4 {
+  margin-bottom: 0;
+}
+
+.contact {
+  float: left;
+  width: 250px;
+  height: auto;
+  margin-right: 50px;
+}
+
+.sale {
+  float: left;
+}
+
+.sold {
+  text-align: center;
+}
+
+.bio {
+  text-align: center;
+}
+
+.mortgage-contact {
+  float: left;
+  width: 50%;
+}
+
+.mortgage-calc {
+  float: left;
+  width: 50%;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
