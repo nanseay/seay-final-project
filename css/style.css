@@ -80,7 +80,20 @@ body {
 .bio {
   text-align: center;
   width: 960px;
+  margin-bottom: 0;
 }
+
+.bio-left {
+  float: left;
+  text-align: left;
+  width: 480px;
+}
+ .bio-right{
+   float: left;
+   text-align: left;
+   width: 460px;
+   margin-left: 20px;
+ }
 
 .phm-left {
   float: left;
