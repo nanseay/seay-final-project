@@ -19,6 +19,10 @@
      height: 0;
 }
 
+.container {
+width: 1060px;
+margin: auto;
+}
 
 /******************************************
 /* BASE STYLES
@@ -26,7 +30,7 @@
 
 body {
      color: #003366;
-     background-color: #D3D3D3;
+     background-color: #d0d0d0;
      margin: auto;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
@@ -59,17 +63,37 @@ body {
   float: left;
 }
 
+.sale img {
+  width: 500px;
+  height: auto;
+}
+
 .sold {
   text-align: center;
 }
 
-.bio {
-  text-align: center;
+.sold img {
+  width: 500px;
+  height: auto;
 }
 
-.mortgage-contact {
+.bio {
+  text-align: center;
+  width: 960px;
+}
+
+.phm-left {
   float: left;
-  width: 50%;
+  width: 25%;
+}
+
+.phm-left h4 {
+  margin-bottom: 0;
+}
+
+.phm-right {
+  float: left;
+  width: 25%;
 }
 
 .mortgage-calc {
