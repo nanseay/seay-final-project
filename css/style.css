@@ -63,9 +63,19 @@ body {
   float: left;
 }
 
-.sale img {
-  width: 500px;
-  height: auto;
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
 
 h2 {
