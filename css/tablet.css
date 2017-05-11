@@ -1,0 +1,21 @@
+/* Tablet (Portrait) - The viewport is at LEAST 768px wide */
+@media (min-width: 768px){
+
+
+
+
+
+
+
+
+}
+
+/* Tablet (Landscape) - The viewport is at LEAST 1024px wide */
+@media (min-width: 1024px){
+
+
+
+
+
+
+}

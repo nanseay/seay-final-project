@@ -1,0 +1,23 @@
+/* Base Styles Here */
+
+/* Small Mobile (Landscape) - The viewport is at LEAST 320px wide */
+@media (min-width: 320px){
+
+
+
+
+
+
+
+}
+
+/* Mobile (Portrait) - The viewport is at LEAST 480px wide */
+@media(min-width: 480px){
+
+
+
+
+
+
+
+}

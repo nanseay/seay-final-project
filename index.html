@@ -13,6 +13,9 @@
 		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mobile.css">
+		<link rel="stylesheet" href="css/tablet.css">
+		<link rel="stylesheet" href="css/desktop.css">
 		<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
 
 	</head>
@@ -25,9 +28,11 @@
 				</nav>
 			</section>
 
+			<hr>
+
 			<section class="clearfix">
 				<div class="contact">
-					<h4>Michael W&#44; Seay Jr&#44;</h4>
+					<h4>Michael W&#46; Seay Jr&#44;</h4>
 					<span>4910 Massachusetts Ave NW</span><br>
 					<span>Suite 119</span><br>
 					<span>Washington&#44; DC 20016</span><br>
@@ -86,6 +91,8 @@
 				</div>
 			</section>
 
+			<hr>
+
 			<!-- add gallery below -->
 			<section class="clearfix">
 				<h2>Sold</h2>
@@ -100,6 +107,8 @@
 					<img src="images/slideshow/Kitchen3.jpg">
 				</div>
 			</section>
+
+			<hr>
 
 			<section class="clearfix">
 				<div id="bio">
@@ -119,6 +128,8 @@
 				</div>
 			</section>
 
+			<hr>
+
 			<section class="clearfix">
 				<div class="phm">
 					<img src="images/PHM-logo.png">
@@ -134,7 +145,22 @@
 
 				<div class="mortgage-calc">
 					<h2>Know Before You Buy</h2>
-					<div style="width:185px; text-align:center;"><p style="text-align:center;"><a href="https://www.mortgagecalculator.biz/" target="_blank"><img src="https://www.mortgagecalculator.biz/img/mlogo.gif" border="0" alt="http://www.mortgagecalculator.biz/c/"/></a><br/><iframe src="https://www.mortgagecalculator.biz/c/mini.php" frameborder="0" width="185px" height="240px" scrolling="no"></iframe><br/></p></div>
+					<form action="">
+					  <label for="apr">APR%:</label>
+					  <input type="text" id="apr" name="APR" placeholder="mortgage rate e.g. 3">
+					  <br><br>
+					  <label for="trm">Loan Term:</label>
+					  <input type="text" id="trm" name="TRM" placeholder="years e.g. 30">
+					  <br><br>
+					  <label for="amt">Loan Amount:</lablel>
+					  <input type="text" id="amt" name="amt" placeholder="e.g. 500000">
+					  <br><br>
+					  <input type="button" id="sbt" value="Submit" />
+					  <input type="reset" id="rst" value="Reset Form"/>
+					  <br><br>
+					  <label for="mPmt">Monthly Payment:</lablel>
+					  <input type="text" id="pmt" name="mPmt"/>
+					</form>
 				</div>
 			</section>
 		</section>
