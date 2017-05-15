@@ -4,6 +4,7 @@
   .logo img {
     float: left;
     width: 150px;
+    height: auto;
     box-sizing: border-box;
   }
 
@@ -13,9 +14,9 @@
     box-sizing: border-box;
   }
 
-  .contact h4 {
+  /*.contact h4 {
     margin-bottom: 0;
-  }
+  }*/
 
   .contact {
     float: left;

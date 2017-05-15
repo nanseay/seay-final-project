@@ -2,17 +2,22 @@
 
 /* Small Mobile (Landscape) - The viewport is at LEAST 320px wide */
 @media (min-width: 320px){
+  .body {
+    max-width: 100%;
+  }
 
   .logo img {
-    float: left;
-    width: 50%;
-    display: inline;
+    display: none;
   }
 
   .logo h1 {
-    float: right;
-    width: 50%;
-    display: inline;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact h4 {
+    margin-bottom: 5px;
   }
 
   /* Force table to not be like tables anymore */
@@ -38,12 +43,11 @@
   		border: none;
   		border-bottom: 1px solid #eee;
   		position: relative;
-  		padding-left: 50%;
   	}
 
   	td:before {
   		/* Now like a table header */
-  		position: absolute;
+  		position: initial;
   		/* Top/left values mimic padding */
   		top: 6px;
   		left: 6px;
