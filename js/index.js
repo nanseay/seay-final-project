@@ -5,6 +5,33 @@ $(document).ready(function() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2500,
+    mobileFirst: true,
+    vertical: false,
+    arrows: true,
+    variableWidth: false,
+
+    responsive: [{
+      breakpoint: 1024,
+      settings: {
+        vertical: false,
+        dots: false,
+        arrows: true
+      }
+    }, {
+      breakpoint: 600,
+      settings: {
+        vertical: false,
+        dots: true,
+        arrows: false
+      }
+    }, {
+        breakpoint: 300,
+        settings: {
+          vertical: true,
+          dots: true,
+          arrows: false
+      }
+    }]
   });
 
   var term;

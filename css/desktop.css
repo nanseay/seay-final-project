@@ -1,7 +1,8 @@
-/* Desktop - The viewport is at LEAST 1280px wide */
-@media (min-width: 1280px){
+/* Desktop - The viewport is at LEAST 1200px wide */
+@media (min-width: 1200px){
 
   .logo img {
+    display: block;
     float: left;
     width: 150px;
     height: auto;
@@ -14,10 +15,6 @@
     box-sizing: border-box;
   }
 
-  /*.contact h4 {
-    margin-bottom: 0;
-  }*/
-
   .contact {
     float: left;
     width: 250px;
@@ -27,27 +24,8 @@
 
   .sale {
     float: left;
-    width: 650px;
+    max-width: 650px;
     height: auto;
-  }
-
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: center;
-    padding: 8px;
-  }
-
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
-
-  h2 {
-    text-align: center;
   }
 
   .sold {

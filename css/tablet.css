@@ -1,7 +1,13 @@
 /* Tablet (Portrait) - The viewport is at LEAST 768px wide */
 @media (min-width: 768px){
 
+  .sold {
+    max-width: 100%;
+    max-height: 350px;
+    margin: 0 auto;
+  }
 
+  }
 
 
 
@@ -13,7 +19,11 @@
 /* Tablet (Landscape) - The viewport is at LEAST 1024px wide */
 @media (min-width: 1024px){
 
-
+  .sold {
+    max-width: 100%;
+    max-height: 400px;
+    margin: 0 50px;
+  }
 
 
 

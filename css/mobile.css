@@ -1,9 +1,12 @@
 /* Base Styles Here */
+h2 {
+  text-align: center;
+}
 
 /* Small Mobile (Landscape) - The viewport is at LEAST 320px wide */
 @media (min-width: 320px){
-  .body {
-    max-width: 100%;
+  .container {
+    padding: 0 25px;
   }
 
   .logo img {
@@ -20,54 +23,25 @@
     margin-bottom: 5px;
   }
 
-  /* Force table to not be like tables anymore */
-  	table, td, tr {
-  		display: block;
-  	}
+  table {
+    border-collapse: collapse;
+    max-width: 100%;
+   }
 
-    th {
-      display: none;
-    }
+   td, th {
+     border: 1px solid #000;
+     text-align: center;
+     padding: 5px;
+   }
 
-  	/* Hide table headers (but not display: none;, for accessibility) */
-  	thead tr {
-  		position: absolute;
-  		top: -9999px;
-  		left: -9999px;
-  	}
-
-  	tr { border: 1px solid #ccc; }
-
-  	td {
-  		/* Behave  like a "row" */
-  		border: none;
-  		border-bottom: 1px solid #eee;
-  		position: relative;
-  	}
-
-  	td:before {
-  		/* Now like a table header */
-  		position: initial;
-  		/* Top/left values mimic padding */
-  		top: 6px;
-  		left: 6px;
-  		width: 45%;
-  		padding-right: 10px;
-  		white-space: nowrap;
-  	}
-
-  	/* Label the data */
-  	td:nth-of-type(1):before { content: "Address"; }
-  	td:nth-of-type(2):before { content: "Bed(s)"; }
-  	td:nth-of-type(3):before { content: "Bath(s)"; }
-  	td:nth-of-type(4):before { content: "Square Feet"; }
-
-  }
+   tr:nth-child(even) {
+     background-color: #dddddd;
+   }
 
   .sold {
     max-width: 100%;
-    height: auto;
-    margin: auto;
+    max-height: auto;
+    margin: 0 auto;
   }
 
 
