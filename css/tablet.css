@@ -43,19 +43,21 @@
   .contact {
     float: left;
     width: 300px;
+    padding: 100 0px;
     margin-right: 100px;
     height: auto;
   }
 
   .sold {
-    max-width: 650px;
+    max-width: 100%;
     height: auto;
+    margin: auto;
   }
 
   .sale {
     float: left;
     max-width: 500px;
-    max-height: 452px;
+    height: auto;
     margin: auto;
   }
 
