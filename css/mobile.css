@@ -35,7 +35,7 @@ h2 {
    }
 
    tr:nth-child(even) {
-     background-color: #dddddd;
+     background-color: #ddd;
    }
 
   .sold {
@@ -44,10 +44,22 @@ h2 {
     margin: 0 auto;
   }
 
+  .sold img {
+    max-height: 100%;
+  }
 
+  .phm {
+    display: block;
+    text-align: center;
+  }
 
+  #sbt {
+    border: 1px solid #003366;
+  }
 
-
+  #rst {
+    border: 1px solid #003366;
+  }
 }
 
 /* Mobile (Portrait) - The viewport is at LEAST 480px wide */
