@@ -1,16 +1,9 @@
 /* Base Styles Here */
-h2 {
-  text-align: center;
-}
 
 /* Small Mobile (Landscape) - The viewport is at LEAST 320px wide */
 @media (min-width: 320px){
   .container {
     padding: 0 25px;
-  }
-
-  .logo img {
-    display: none;
   }
 
   .logo h1 {
@@ -19,24 +12,19 @@ h2 {
     text-align: center;
   }
 
-  .contact h4 {
+  #mobile {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h2 {
     margin-bottom: 5px;
   }
 
-  table {
-    border-collapse: collapse;
-    max-width: 100%;
-   }
-
-   td, th {
-     border: 1px solid #000;
-     text-align: center;
-     padding: 5px;
-   }
-
-   tr:nth-child(even) {
-     background-color: #ddd;
-   }
+  .sale {
+      max-height: 350px;
+      overflow-y: scroll;
+  }
 
   .sold {
     max-width: 100%;

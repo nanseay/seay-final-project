@@ -4,7 +4,7 @@
     padding: 0;
   }
 
-  .logo img {
+  #desktop {
     display: block;
     float: left;
     width: 150px;
@@ -20,6 +20,7 @@
 
   .contact {
     float: left;
+    text-align: center;
     width: 250px;
     height: auto;
     margin-right: 50px;
