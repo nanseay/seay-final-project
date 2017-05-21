@@ -44,11 +44,11 @@
   }
 
   #sbt {
-    border: 1px solid #003366;
+    border-radius: 1px solid #003366;
   }
 
   #rst {
-    border: 1px solid #003366;
+    border-radius: 1px solid #003366;
   }
 }
 
