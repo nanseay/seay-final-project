@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $('.sold').slick({
+  $('#sold').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -39,9 +39,7 @@ $(document).ready(function() {
   var amt;
   var mPmt;
 
-  window.onload = function()
-  {
-    document.getElementById("apr").focus();
+  window.onload = function() {
     document.getElementById("sbt").onclick = getValues;
   };
 
