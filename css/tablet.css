@@ -25,7 +25,7 @@
     text-align: center;
   }
 
-  #sale {
+  .sale {
     max-width: 100%;
     max-height: 484px;
     overflow-y: scroll;
@@ -39,6 +39,19 @@
 
   #mortgage-calc {
     text-align: center;
+  }
+
+  /* contact form */
+  .left {
+    float: left;
+    text-align: right;
+    width: 45%;
+    padding-right: 5%;
+  }
+
+  .right {
+    float: left;
+    width: 50%;
   }
 }
 
@@ -58,13 +71,13 @@
     text-align: center;
   }
 
-  #sold {
+  .sold {
     max-width: 100%;
     height: auto;
     margin: auto;
   }
 
-  #sale {
+  .sale {
     float: left;
     max-width: 500px;
     height: auto;

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Michael W&#46; Seay Jr&#44; Realtor</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mobile.css">
+		<link rel="stylesheet" href="css/tablet.css">
+		<link rel="stylesheet" href="css/desktop.css">
+		<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+
+	</head>
+
+  <body>
+    <section class="container">
+			<section class="clearfix">
+				<nav class="logo">
+					<img id="desktop" src="images/wcanmiller.jpg" alt="W.C.A.N. Miller logo">
+					<img id="mobile" src="images/wcanmillerlong.png" alt="W.C.A.N. Miller mobile logo">
+					<h1>Michael W&#46; Seay Jr&#44; Licensed Realtor in DC &amp; MD</h1>
+        </nav>
+      </section>
+    </section>
+
+    <hr>
+
+    <section class="container">
+      <form action="/action_page.php">
+        <section class="clearfix">
+          <div class="left">
+            <label for="yourName">Your Name</label>
+          </div>
+
+          <div class="right">
+            <input type="text" name="yourName" id="yourName" size="30" placeholder="Name..." required>
+          </div>
+        </section>
+        <br>
+
+        <section class="clearfix">
+          <div class="left">
+            <label for="email">Email</label>
+          </div>
+
+          <div class="right">
+            <input type="text" id="email" name="email" size="30" placeholder="Email..." required>
+          </div>
+        </section>
+        <br>
+
+        <section class="clearfix">
+          <div class="left">
+            <label for="phoneNumber">Phone Number</label>
+          </div>
+
+          <div class="right">
+            <input type="text" name="phoneNumber" id="phoneNumber" size="12" maxlength="12" placeholder="xxx-xxx-xxxx" required>
+          </div>
+        </section>
+        <br>
+
+        <section class="clearfix">
+          <div class="left">
+            <label for="preference">Best Way to Contact You?&nbsp;</label>
+          </div>
+          <div class="right">
+             <input type="radio" name="preference" value="email" checked> Email&nbsp;
+             <input type="radio" name="preference" value="phone"> Phone
+             <br>
+          </div>
+        </section>
+        <br>
+
+        <section class="clearfix">
+          <div class="left">
+            <label for="bs">Are You Buying or Selling?&nbsp;</label>
+          </div>
+
+          <div class="right">
+            <input type="radio" name="bs" value="buying" checked> Buying&nbsp;
+            <input type="radio" name="bs" value="selling"> Selling <br>
+          </div>
+        </section>
+        <br>
+
+        <section class="clearfix">
+          <div class="left">
+            <label for="subject">Subject: </label>
+          </div>
+
+          <div class="right">
+            <textarea id="subject" rows="10" cols="40" name="subject" placeholder="I would like to sell or buy a home.."></textarea>
+            <br>
+            <input type="submit" id="sbt" value="Contact Me"/>
+  				  <input type="reset" id="rst" value="Reset Form"/>
+          </div>
+        </section>
+    </form>
+  </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

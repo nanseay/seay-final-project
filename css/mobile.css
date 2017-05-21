@@ -18,7 +18,7 @@
     height: auto;
   }
 
-  #sale {
+  .sale {
       max-height: 350px;
       overflow-y: scroll;
   }
@@ -51,6 +51,7 @@
     border: 1px solid #003366;
   }
 }
+
 
 /* Mobile (Portrait) - The viewport is at LEAST 480px wide */
 @media(min-width: 480px){
