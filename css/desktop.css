@@ -27,30 +27,47 @@
   }
 
   .sale {
-    float: left;
-    max-width: 650px;
+    display: block;
+    text-align: center;
+    max-width: 960px;
+    float: none;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #sold {
-    max-width: 760px;
-    max-height: 500px;
+    max-width: 960px;
+    max-height: auto;
     margin: auto;
   }
 
   #bio {
-    text-align: center;
+    padding: 25px 0px;
+    float: left;
+    max-width: 650px;
+    margin-left: 20px;
     margin-bottom: 0;
   }
 
   #bio p {
+    text-align: left;
+  }
+
+  .learnmore {
+    display: none;
+  }
+
+  #learnmoretext.hide p {
+    display: inline;
     float: left;
     text-align: left;
-    max-width: 460px;
+    max-width: 20%;
     margin-right: 20px;
   }
 
   #testimonials p {
+    display: inline;
     float: left;
     text-align: left;
     max-width: 20%;

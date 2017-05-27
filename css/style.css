@@ -20,7 +20,7 @@
 }
 
 .container {
-max-width: 960px;
+max-width: 1080px;
 margin: auto;
 }
 
@@ -101,7 +101,7 @@ h2 {
 table {
   border: 1px solid #ccc;
   border-collapse: collapse;
-  margin: 0;
+  margin: auto;
   padding: 0;
   table-layout: auto;
   max-width: 100%;
@@ -128,6 +128,7 @@ table td {
 @media only screen and (min-width: 320px) and (max-width: 768px)  {
 	table {
 	  	max-width: 100%;
+      margin: auto;
 	}
 
 	/* Force table to not be like tables anymore */

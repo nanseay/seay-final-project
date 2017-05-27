@@ -1,5 +1,37 @@
 $(document).ready(function() {
 
+    // hide all the extra text initially
+    $('.hide').hide();
+
+    // click on either link to show text
+    $('.readmore').click(showOnClick);
+    $('.learnmore').click(learnMoreText);
+
+    // click to hide readmore
+    $('.readless').click(hideOnClick);
+
+    // show readmore
+    function showOnClick(event) {
+      event.preventDefault();
+      $('.readmore').hide();
+      $('#show-this-on-click').slideDown();
+      $('.readless').show();
+    }
+
+    // hide readless
+    function hideOnClick(event) {
+      event.preventDefault();
+      $('.readless').hide ();
+      $('#show-this-on-click').slideUp();
+      $('.readmore').show();
+    }
+    // show learnmore
+    function learnMoreText(event) {
+      event.preventDefault();
+      $('#learnmoretext').slideDown();
+      $('.learnmore').hide();
+    }
+
   $('#sold').slick({
     slidesToShow: 1,
     slidesToScroll: 1,

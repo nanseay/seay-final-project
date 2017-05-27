@@ -33,6 +33,12 @@
     max-height: 100%;
   }
 
+  #testimonials p {
+    float: none;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
   #phm {
     display: block;
     text-align: center;
