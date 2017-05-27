@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+  $(window).on('load, resize', function mobileViewUpdate() {
+    var viewportWidth = $(window).width();
+    if (viewportWidth < 1200) {
     // hide all the extra text initially
     $('.hide').hide();
 
@@ -31,6 +34,8 @@ $(document).ready(function() {
       $('#learnmoretext').slideDown();
       $('.learnmore').hide();
     }
+    }
+    });
 
   $('#sold').slick({
     slidesToShow: 1,

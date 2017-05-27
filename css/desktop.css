@@ -54,20 +54,20 @@
     text-align: left;
   }
 
-  .learnmore {
+   .readmore, .readless, .learnmore {
     display: none;
   }
 
-  #learnmoretext.hide p {
+  /*span#learnmoretext.hide p {
     display: inline;
     float: left;
     text-align: left;
     max-width: 20%;
     margin-right: 20px;
-  }
+  }*/
 
   #testimonials p {
-    display: inline;
+    /*display: inline;*/
     float: left;
     text-align: left;
     max-width: 20%;
